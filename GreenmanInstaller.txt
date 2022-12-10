@@ -1,0 +1,23 @@
+pip install pyinstaller
+
+pyinstaller --hidden-import="googleapiclient" SmallUi.py --onefile
+Got pyInstaller to work instead - in directory where source is, 
+pyinstaller --hidden-import="googleapiclient" SmallUi.py --onefile
+had to downgrade the google api version: pip install google-api-python-client==1.8.0
+
+pyinstaller puts the generated exe in directory dist
+
+Then copy other files to same folder, then 7zip credentials, SmallUi.exe, and three-kings.jpg
+
+Then download nullsoft scriptable install system 2.46, then run it, pick
+"Installer based on ZIP file" to create an installer.
+
+The file it produces is what should sit on a download site.
+
+pip install wix.py - didn't work
+pip install py2exe worked, but py2exe didn't produce a runnable file (error, no module named 
+  'PyQt5.sip)
+
+The final product has a command prompt window - this should be the preview area instead of the 
+internal box, or maybe keep both, but minimize what goes into the preview area, and have 
+verbose output in the command window.

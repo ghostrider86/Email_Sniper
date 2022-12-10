@@ -1,0 +1,11 @@
+Greenman search starting at 2022-11-15 16:50:36.649910
+
+Connecting...
+loaded existing credentials
+asking user for credentials
+saving credentials
+searching gmail...
+  starting gmail search
+Email preview complete
+Emails:1
+google space:0.00B
