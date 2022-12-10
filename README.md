@@ -1,4 +1,4 @@
-# green_man
+# Email_Sniper
 Gmail attachment and email archiver
 Uses google gmail API to let the user connect to their account and then search and copy or the emails and attachments.
 
